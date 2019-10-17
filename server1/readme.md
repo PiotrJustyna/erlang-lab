@@ -20,7 +20,7 @@ erl
 
 In erlang shell, use the following sequence of commands:
 
-```
+```erlang
 Erlang/OTP 19 [erts-8.3] [source-d5c06c6] [64-bit] [smp:12:12] [async-threads:10] [kernel-poll:false]
 
 Eshell V8.3  (abort with ^G)
