@@ -39,4 +39,4 @@ caused exception function_clause
 
 It would be good to demonstrate the name server failing in this exercise, so I took the liberty of modifying the code I found in the book to better suit what we're trying to show.
 
-You can see that even though the client got an error and the `handle` function crashed, but that failure does not affect other callers and the state of the server is also not affected.
+You can see that even though the client got an error and the `handle` function crashed, the failure does not affect other callers and the state of the server is also not affected.
