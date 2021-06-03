@@ -1,0 +1,9 @@
+{
+    "name": "Erlang",
+    "dockerFile": "Dockerfile",
+    "extensions": [
+        "pgourlain.erlang",
+        "yzhang.markdown-all-in-one",
+        "bierner.markdown-emoji"
+    ]
+}
