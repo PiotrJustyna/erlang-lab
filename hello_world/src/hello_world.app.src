@@ -1,0 +1,15 @@
+{application, hello_world,
+ [{description, "Just a hello world console application."},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {hello_world_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.

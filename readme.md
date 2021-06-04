@@ -2,21 +2,11 @@
 
 Erlang lab.
 
-## ide
+## applications
 
-Visual Studio Code + Remote Containers are supported.
+* [hello_world](./hello_world/)
 
-## build
+## reading
 
-### MacOS:
-
-`CMD + SHIFT + B`
-
-## run
-
-* run erlang shell: `erl`
-* run the function: `hello:hello_world().`
-
-## exit erlang shell
-
-`CTRL + \`
+* [Building Your First Erlang App Using Rebar3](https://medium.com/erlang-central/building-your-first-erlang-app-using-rebar3-25f40b109aad)
+* [rebar3 shell](https://ferd.ca/rebar3-shell.html)
