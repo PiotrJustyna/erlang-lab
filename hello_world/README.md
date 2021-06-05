@@ -1,14 +1,52 @@
+- [hello_world](#hello_world)
+  - [build](#build)
+    - [vs code](#vs-code)
+    - [rebar3](#rebar3)
+  - [run](#run)
+    - [vs code](#vs-code-1)
+    - [rebar3](#rebar3-1)
+  - [stop](#stop)
+  - [sample output](#sample-output)
+
 # hello_world
 
 Just a hello world console application.
 
 ## build
 
+### vs code
+
+```
+ctrl/cmd+shift+b
+```
+
+### rebar3
+
+Alternatively, it can also be built using `rebar3` directly:
+
 ```
 $ rebar3 compile
 ```
 
 ## run
+
+### vs code
+
+Pressing
+
+```
+F5
+```
+
+will run the code.
+
+From there, the application can be started by typing:
+
+```
+application:start(hello_world).
+```
+
+### rebar3
 
 ```
 $ rebar3 shell
@@ -20,7 +58,19 @@ Application starts automatically, but if stopped, can be started manually:
 application:start(hello_world).
 ```
 
-### output
+## stop
+
+```
+application:stop(hello_world).
+```
+
+To exit rebar3 shell:
+
+```
+ctrl + \
+```
+
+## sample output
 
 ```
 root@6fb283d0fa53:/workspaces/erlang-lab/hello_world# rebar3 shell
@@ -38,16 +88,4 @@ application:stop(hello_world).
     type: temporary
 
 ok
-```
-
-## stop
-
-```
-application:stop(hello_world).
-```
-
-To exit rebar3 shell:
-
-```
-ctrl + \
 ```

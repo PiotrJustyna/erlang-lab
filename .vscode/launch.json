@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [        
       {
-        "name": "launch erlang",
+        "name": "launch hello_world",
         "type": "erlang",
         "request": "launch",
         "cwd": "${workspaceRoot}/hello_world",
