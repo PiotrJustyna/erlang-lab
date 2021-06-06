@@ -10,6 +10,13 @@
         "request": "launch",
         "cwd": "${workspaceRoot}/hello_world",
         "preLaunchTask": "build hello_world"
+      },
+      {
+        "name": "launch generic_server_1",
+        "type": "erlang",
+        "request": "launch",
+        "cwd": "${workspaceRoot}/generic_server_1",
+        "preLaunchTask": "build generic_server_1"
       }
     ]
   }

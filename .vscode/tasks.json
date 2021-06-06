@@ -15,6 +15,19 @@
             "options": {
                 "cwd": "${workspaceRoot}/hello_world"
             }
+        },
+        {
+            "label": "build generic_server_1",
+            "type": "shell",
+            "command": "rebar3 compile",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": "$erlang",
+            "options": {
+                "cwd": "${workspaceRoot}/generic_server_1"
+            }
         }
     ]
 }
