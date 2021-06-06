@@ -3,6 +3,7 @@
     "dockerFile": "Dockerfile",
     "extensions": [
         "pgourlain.erlang",
+        "erlang-ls.erlang-ls",
         "yzhang.markdown-all-in-one",
         "bierner.markdown-emoji"
     ]
