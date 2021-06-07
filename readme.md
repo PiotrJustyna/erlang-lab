@@ -4,7 +4,8 @@ Erlang lab.
 
 ## applications
 
-* [hello_world](./hello_world/)
+* [hello_world](./1_hello_world/)
+* [generic_server_1](./2_generic_server_1/)
 
 ## reading
 
