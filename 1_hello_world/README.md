@@ -3,7 +3,6 @@
     - [vs code](#vs-code)
     - [rebar3](#rebar3)
   - [run](#run)
-    - [vs code](#vs-code-1)
     - [rebar3](#rebar3-1)
   - [stop](#stop)
   - [sample output](#sample-output)
@@ -29,22 +28,6 @@ $ rebar3 compile
 ```
 
 ## run
-
-### vs code
-
-Pressing
-
-```
-F5
-```
-
-will run the code.
-
-From there, the application can be started by typing:
-
-```
-application:start(hello_world).
-```
 
 ### rebar3
 

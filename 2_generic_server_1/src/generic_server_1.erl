@@ -5,10 +5,18 @@
 
 -module(generic_server_1).
 
--export([start/2, rpc/2]).
+-behaviour(application).
 
-start(Name, Mod) ->
-    register(Name, spawn(fun() -> loop(Name, Mod, Mod:init()) end)).
+-export([start/2, stop/1, rpc/2]).
+
+start(_StartType, _StartArgs) ->
+    register(name_server,
+             spawn(fun() -> loop(name_server, name_server, name_server:init()) end)),
+    generic_server_1_sup:start_link().
+
+stop(_State) ->
+    unregister(name_server),
+    ok.
 
 rpc(Name, Request) ->
     Name ! {self(), Request},
