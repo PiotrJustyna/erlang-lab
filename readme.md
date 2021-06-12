@@ -4,12 +4,17 @@ Erlang lab. I use this repository to experiment with Erlang. All projects in the
 
 ## applications
 
-| name | rebar3 support | vs code build support\* | description |
-| --- | --- | --- | --- |
-| [hello_world](./1_hello_world/) | :white_check_mark: | :white_check_mark: | Just a hello world application. Doesn't even print out the "hello world!". It just serves as a template for rebar3 + supervisor + application behavior usage. |
-| [generic_server_1](./2_generic_server_1/) | :white_check_mark: | :white_check_mark: | First generic server from [Programming Erlang 2nd edition](https://pragprog.com/titles/jaerlang2/programming-erlang-2nd-edition/). |
+| name | vs code build support\* | description |
+| --- | --- | --- |
+| [hello_world](./1_hello_world/) | :white_check_mark: | Just a hello world application. Doesn't even print out the "hello world!". It just serves as a template for rebar3 + supervisor + application behavior usage. |
+| [generic_server_1](./2_generic_server_1/) | :white_check_mark: | First generic server from [Programming Erlang 2nd edition](https://pragprog.com/titles/jaerlang2/programming-erlang-2nd-edition/). |
+| [modules](./3_modules/modules/) | :white_check_mark: | Fun with modules + io. |
 
 \*vs code build support - support for the popular `[cmd/ctrl]+shift+b` shortcut. Applications supporting this have an entry in the `erlang-lab/.vscode/tasks.json` file.
+
+## adding new applications
+
+This is more like a note-to-self type of affair. I often switch between projects and languages and sometimes forget basic commands. Since all applications in this repository support rebar3, to add a new application, execute this from the terminal: `rebar3 new app APP_NAME`.
 
 ## reading
 

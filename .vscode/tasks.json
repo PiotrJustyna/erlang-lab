@@ -28,6 +28,19 @@
             "options": {
                 "cwd": "${workspaceRoot}/2_generic_server_1"
             }
+        },
+        {
+            "label": "build modules",
+            "type": "shell",
+            "command": "rebar3 compile",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": "$erlang",
+            "options": {
+                "cwd": "${workspaceRoot}/3_modules"
+            }
         }
     ]
 }
