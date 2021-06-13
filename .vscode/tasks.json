@@ -4,7 +4,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build hello_world",
+            "label": "build 1_hello_world",
             "type": "shell",
             "command": "rebar3 compile",
             "group": {
@@ -17,7 +17,7 @@
             }
         },
         {
-            "label": "build generic_server_1",
+            "label": "build 2_generic_server_1",
             "type": "shell",
             "command": "rebar3 compile",
             "group": {
@@ -30,7 +30,7 @@
             }
         },
         {
-            "label": "build modules",
+            "label": "build 3_modules",
             "type": "shell",
             "command": "rebar3 compile",
             "group": {
@@ -39,7 +39,20 @@
             },
             "problemMatcher": "$erlang",
             "options": {
-                "cwd": "${workspaceRoot}/3_modules"
+                "cwd": "${workspaceRoot}/3_modules/modules"
+            }
+        },
+        {
+            "label": "build 4_guards",
+            "type": "shell",
+            "command": "rebar3 compile",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": "$erlang",
+            "options": {
+                "cwd": "${workspaceRoot}/4_guards/guards"
             }
         }
     ]
