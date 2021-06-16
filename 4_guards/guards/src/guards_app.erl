@@ -36,7 +36,6 @@ start(_StartType, _StartArgs) ->
     io:format("compare, equal test: ~s~n", [validator:compare(1, 1)]),
     io:format("compare, X > Y test: ~s~n", [validator:compare(2, 1)]),
     io:format("compare, X < Y test: ~s~n", [validator:compare(1, 2)]),
-    io:format("compare, values cannot be compared test: ~s~n", [validator:compare(chair, 3)]),
 
     guards_sup:start_link().
 
