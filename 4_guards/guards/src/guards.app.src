@@ -1,5 +1,5 @@
 {application, guards,
- [{description, "Exploring guards to memorize their exotic syntax."},
+ [{description, "Exploring guards and if statements to memorize their exotic syntax."},
   {vsn, "0.1.0"},
   {registered, []},
   {mod, {guards_app, []}},
