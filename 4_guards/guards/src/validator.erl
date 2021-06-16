@@ -13,3 +13,8 @@ any_variable_positive(X, Y) when X >= 0; Y >= 0 ->
     true;
 any_variable_positive(_, _) ->
     false.
+
+are_equal(X, Y) ->
+    if X=:=Y -> true;
+    true -> false
+end.

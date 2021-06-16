@@ -21,6 +21,10 @@ start(_StartType, _StartArgs) ->
               [validator:any_variable_positive(-1, 2)]),
     io:format("any_variable_positive, negative test: ~s~n",
               [validator:any_variable_positive(-1, -2)]),
+    io:format("are_equal, positive test: ~s~n",
+              [validator:are_equal(1, 1)]),
+    io:format("are_equal, negative test: ~s~n",
+              [validator:are_equal(1, 2)]),
     guards_sup:start_link().
 
 stop(_State) ->
