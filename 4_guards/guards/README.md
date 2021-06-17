@@ -72,7 +72,6 @@ insert_to_animal_lookup_but_no_cats, pony test: [{"Pedro",pony},
                                                  {"Danny",dog},
                                                  {"Tiddles",turtle}]
 ===> Booted guards
-===> Booted guards
 ```
 
 ## notes
