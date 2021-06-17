@@ -3,7 +3,8 @@
 Exploring:
 
 * guards
-* if statements
+* `if` statements
+* `case of` statements
 
 to memorize their exotic syntax.
 
@@ -40,7 +41,7 @@ ctrl + \
 ## output
 
 ```
-root@7956a4ae4f55:/workspaces/erlang-lab/4_guards/guards# rebar3 shell
+root@47351f76ec88:/workspaces/erlang-lab/4_guards/guards# rebar3 shell
 ===> Verifying dependencies...
 ===> Analyzing applications...
 ===> Compiling guards
@@ -61,7 +62,16 @@ are_equal, negative test: false
 compare, equal test: both_values_equal
 compare, X > Y test: first_value_greater
 compare, X < Y test: second_value_greater
-compare, values cannot be compared test: first_value_greater
+
+insert_to_animal_lookup_but_no_cats, turtle test: [{"Tiddles",turtle}]
+insert_to_animal_lookup_but_no_cats, dog test: [{"Danny",dog},
+                                                {"Tiddles",turtle}]
+insert_to_animal_lookup_but_no_cats, cat test: [{"Danny",dog},
+                                                {"Tiddles",turtle}]
+insert_to_animal_lookup_but_no_cats, pony test: [{"Pedro",pony},
+                                                 {"Danny",dog},
+                                                 {"Tiddles",turtle}]
+===> Booted guards
 ===> Booted guards
 ```
 
