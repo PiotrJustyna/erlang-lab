@@ -25,3 +25,7 @@ This is more like a note-to-self type of affair. I often switch between projects
 * [Property-Based Testing with PropEr, Erlang, and Elixir](https://pragprog.com/titles/fhproper/property-based-testing-with-proper-erlang-and-elixir/)
 * [Programming Erlang 2nd edition](https://pragprog.com/titles/jaerlang2/programming-erlang-2nd-edition/)
 * [Learn You Some Erlang for Great Good](https://learnyousomeerlang.com/)
+
+## to watch
+
+* [the zen of erlang](https://youtu.be/4ZIPijEqrNI)
